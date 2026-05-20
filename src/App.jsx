@@ -17,27 +17,27 @@ function App() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-lg">
 
-          <a href="#home" className="text-4xl text-gray-300 hover-glow"
+          <a href="#home" className="text-2xl text-gray-300 hover-glow"
           >
             Home
           </a>
 
-          <a href="#about" className="text-2xl text-green-300 hover-glow"
+          <a href="#about" className="text-2xl text-gray-300 hover-glow"
           >
             About
           </a>
 
-          <a href="#skills" className="text-2xl text-green-300 hover-glow"
+          <a href="#skills" className="text-2xl text-gray-300 hover-glow"
           >
             Skills
           </a>
 
-          <a href="#projects" className="text-2xl text-green-300 hover-glow"
+          <a href="#projects" className="text-2xl text-gray-300 hover-glow"
           >
             Projects
           </a>
 
-          <a href="#contact" className="text-2xl text-green-300 hover-glow"
+          <a href="#contact" className="text-2xl text-gray-300 hover-glow"
           >
             Contact
           </a>
@@ -116,7 +116,7 @@ function App() {
           <img
             src={profile}
             alt="profile"
-            className="w-55 h-55 rounded-full object-cover border-4 border-green-400 shadow-[0_0_40px_rgba(74,222,128,0.6)] mb-8 hover:scale-105 transition duration-300 float-animation"
+            className="w-50 h-50 rounded-full object-cover border-4 border-green-400 shadow-[0_0_40px_rgba(74,222,128,0.6)] mb-8 hover:scale-105 transition duration-300 float-animation"
           />
 
           <h2 className="text-4xl md:text-7xl font-extrabold mb-6 leading-tight">
