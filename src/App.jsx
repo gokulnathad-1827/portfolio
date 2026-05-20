@@ -59,7 +59,7 @@ function App() {
           <img
             src={profile}
             alt="profile"
-            className="w-44 h-44 rounded-full object-cover border-4 border-green-400 shadow-[0_0_40px_rgba(74,222,128,0.6)] mb-8 hover:scale-105 transition duration-300 float-animation"
+            className="w-55 h-55 rounded-full object-cover border-4 border-green-400 shadow-[0_0_40px_rgba(74,222,128,0.6)] mb-8 hover:scale-105 transition duration-300 float-animation"
           />
 
           <h2 className="text-4xl md:text-7xl font-extrabold mb-6 leading-tight">
