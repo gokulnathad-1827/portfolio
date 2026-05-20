@@ -1,8 +1,9 @@
 import profile from "./assets/profile.jpeg"
 import resume from "./assets/resume.pdf"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
-
+import { useState } from "react"
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="bg-black text-white min-h-screen">
 
@@ -13,34 +14,90 @@ function App() {
           GOKULNATH
         </h1>
 
+        {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-lg">
 
-          <a href="#home" className="text-2xl text-gray-300 hover-glow">
+          <a href="#home" className="text-4xl text-gray-300 hover-glow"
+          >
             Home
           </a>
 
-          <a href="#about" className="text-2xl text-gray-300 hover-glow">
+          <a href="#about" className="text-2xl text-green-300 hover-glow"
+          >
             About
           </a>
 
-          <a href="#skills" className="text-2xl text-gray-300 hover-glow">
+          <a href="#skills" className="text-2xl text-green-300 hover-glow"
+          >
             Skills
           </a>
 
-          <a href="#projects" className="text-2xl text-gray-300 hover-glow">
+          <a href="#projects" className="text-2xl text-green-300 hover-glow"
+          >
             Projects
           </a>
 
-          <a href="#contact" className="text-2xl text-gray-300 hover-glow">
+          <a href="#contact" className="text-2xl text-green-300 hover-glow"
+          >
             Contact
           </a>
 
         </ul>
 
-        {/* Mobile Menu */}
-        <div className="md:hidden text-3xl text-green-400">
+        {/* Mobile Button */}
+        <button
+          className="md:hidden text-3xl text-green-400 hover-glow"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
           ☰
-        </div>
+        </button>
+
+        {/* Mobile Menu */}
+        {menuOpen && (
+          <div className="absolute top-20 left-0 w-full bg-[#111] flex flex-col items-center gap-6 py-8 md:hidden border-b border-green-400/20">
+
+            <a
+              href="#home"
+              onClick={() => setMenuOpen(false)}
+              className="text-2xl text-gray-300 hover-glow"
+            >
+              Home
+            </a>
+
+            <a
+              href="#about"
+              onClick={() => setMenuOpen(false)}
+              className="text-2xl text-gray-300 hover-glow"
+            >
+              About
+            </a>
+
+            <a
+              href="#skills"
+              onClick={() => setMenuOpen(false)}
+              className="text-2xl text-gray-300 hover-glow"
+            >
+              Skills
+            </a>
+
+            <a
+              href="#projects"
+              onClick={() => setMenuOpen(false)}
+              className="text-2xl text-gray-300 hover-glow"
+            >
+              Projects
+            </a>
+
+            <a
+              href="#contact"
+              onClick={() => setMenuOpen(false)}
+              className="text-2xl text-gray-300 hover-glow"
+            >
+              Contact
+            </a>
+
+          </div>
+        )}
 
       </nav>
 
