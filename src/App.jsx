@@ -369,7 +369,8 @@ function App() {
                 <div className="mt-8 flex gap-4 flex-wrap">
 
                   <a
-                    href="https://github.com/gokulnathad-1827"
+                    href="https://github.com/gokulnathad-1827/attendance-tracker-system
+"
                     target="_blank"
                     rel="noreferrer"
                     className="bg-green-400 text-black px-5 py-2 rounded-xl font-semibold hover:scale-105 hover:shadow-[0_0_20px_rgba(74,222,128,0.8)] transition duration-300"
@@ -378,7 +379,9 @@ function App() {
                   </a>
 
                   <a
-                    href="#"
+                    href="https://gokulnath-attendance.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
                     className="border border-green-400 px-5 py-2 rounded-xl hover:bg-green-400 hover:text-black hover:shadow-[0_0_20px_rgba(74,222,128,0.8)] transition duration-300"
                   >
                     Live Demo
@@ -422,7 +425,7 @@ function App() {
                 <div className="mt-8 flex gap-4 flex-wrap">
 
                   <a
-                    href="https://github.com/gokulnathad-1827"
+                    href="https://github.com/gokulnathad-1827/campusassist-ai/tree/main"
                     target="_blank"
                     rel="noreferrer"
                     className="bg-green-400 text-black px-5 py-2 rounded-xl font-semibold hover:scale-105 hover:shadow-[0_0_20px_rgba(74,222,128,0.8)] transition duration-300"
@@ -431,7 +434,9 @@ function App() {
                   </a>
 
                   <a
-                    href="#"
+                    href="https://chatbot-project-d5cz.onrender.com/"
+                    target="_blank"
+                    rel="noreferrer"
                     className="border border-green-400 px-5 py-2 rounded-xl hover:bg-green-400 hover:text-black hover:shadow-[0_0_20px_rgba(74,222,128,0.8)] transition duration-300"
                   >
                     Live Demo
