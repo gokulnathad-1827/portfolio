@@ -104,7 +104,7 @@ function App() {
       {/* Hero Section */}
       <section
         id="home"
-        className="relative flex flex-col items-center justify-center text-center h-[90vh] overflow-hidden px-5"
+        className="relative flex flex-col items-center justify-center text-center min-h-screen pt-32 overflow-hidden px-5"
       >
 
         {/* Glow Effect */}
@@ -526,7 +526,41 @@ function App() {
         </div>
 
       </section>
+      {/* Research & Publications */}
+      <section className="px-10 py-24 bg-black">
 
+        <div className="max-w-6xl mx-auto">
+
+          <h2 className="text-5xl font-bold text-center mb-16 text-green-400">
+            Research & Publications
+          </h2><br />
+
+          <div className="bg-[#111] p-10 rounded-3xl border border-green-400/20 hover:border-green-400 hover:-translate-y-2 shadow-lg hover:shadow-green-500/20 transition duration-300">
+
+            <h3 className="text-3xl font-bold text-green-400 mb-6">
+              📘 Deep Learning-Driven Solar Power Forecasting for Smart Grid Optimization
+            </h3>
+
+            <p className="text-gray-300 leading-9 text-lg">
+              Published in IEEE Conference Proceedings, focusing on deep learning
+              techniques for renewable energy forecasting and smart grid optimization.
+            </p>
+            <center>
+              <a
+                href="https://ieeexplore.ieee.org/document/11416716"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block mt-8 bg-green-400 text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 hover:shadow-[0_0_20px_rgba(74,222,128,0.8)] transition duration-300"
+              >
+                View Publication
+              </a>
+            </center>
+
+          </div>
+
+        </div>
+
+      </section><slot></slot>
       {/* Contact Section */}
       <section id="contact" className="px-10 py-24 bg-[#0a0a0a]">
 
