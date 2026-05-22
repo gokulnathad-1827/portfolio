@@ -425,7 +425,7 @@ function App() {
                 <div className="mt-8 flex gap-4 flex-wrap">
 
                   <a
-                    href="https://github.com/gokulnathad-1827/campusassist-ai/tree/main"
+                    href="https://github.com/gokulnathad-1827/campusassist-ai/"
                     target="_blank"
                     rel="noreferrer"
                     className="bg-green-400 text-black px-5 py-2 rounded-xl font-semibold hover:scale-105 hover:shadow-[0_0_20px_rgba(74,222,128,0.8)] transition duration-300"
